@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    max-width: 1380px;
+    min-width: 800px;
+    margin: auto;
+    align-items: center;
+    
+}
+
+
+header {
+    background-color: #ffffff;
+    height: 80px;
+    width: 100%;
+    z-index: 2;
+    position: fixed;
+         
+
+}
+
+header figure {
+    height: 80px;
+    width: 100%;
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-image: url(_images/logo.png);
+    background-color: #ffffff;
+    float: left; 
+    position: relative;
+    background-position-y: 10px;
+    background-position-x: 10px;  
+    
+        
+}
+header nav {
+    background-color: #ffffff;
+    height: 80px;
+    width: 45%;
+    float: right;
+    position: relative;
+    bottom: 80px;
+    right: 10px;
+        
+}
+
+header nav ul li {
+    display: inline;
+    list-style: none;    
+}
+
+header nav ul li a:hover {
+    color: #000000;
+
+}
+
+header nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px 12px;
+    color: #a50f35;
+    font-family: MontSerrat, Arial, sans-serif;
+    
+}
+
+
+
+#leaofundo {    
+    background-image: url(_images/lion.jpg);
+    background-position-y: 30px;
+    height: 800px;
+    width: 100%;
+    background-size: 1360px;
+    background-repeat: no-repeat;
+    margin: auto;
+    float: right;
+    
+    
+        
+}
+#leao{
+    height: 384px;
+    width: 50%;
+    z-index: 1;
+    position: relative;
+    bottom: 400px;
+    left: 50px; 
+    
+}
+
+#designer {
+    font-size: 70px;
+    color: #a50f35;
+    font-weight: bolder;
+    
+}
+
+#feroz {
+    font-size: 70px;
+    color: #ffffff;
+    font-weight: bolder;
+       
+}
+
+#slider {
+    height: 500px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    /* top: 250px; */
+    color: #ffffff;
+    text-align: center;
+    
+}
+
+/* #artigos {
+    height: 500px;
+    width: 100%;
+    background-color: red;
+    position: relative;
+    top: 250px;
+    font-size: 20px;
+}
+
+#rodape-icones {
+    height: 200px;
+    width: 100%;
+    background-color: yellow;
+    position: relative;
+    top: 250px;
+
+}
+
+.icones {
+    height: 50px;
+    width: 50px;
+    background-size: 50px;
+    position: relative;
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding: 80px 80px;
+    text-align: center;
+    left: 30%;
+    top: 120px;
+
+}
+
+.face {
+    background-image: url(_images/facebook.png);
+}
+
+.whats {
+    background-image: url(_images/whatsapp.png);
+}
+
+.insta {
+    background-image: url(_images/insta.png);
+} */
